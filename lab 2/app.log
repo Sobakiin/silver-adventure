@@ -1,0 +1,41 @@
+2022-02-15 16:38:25,712 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of e8d50e6d-0b13-49c7-8c21-682dcfa6e1d2
+2022-02-15 16:38:27,765 - basicLogger - INFO - Returned event "Ride Order" response (Id: e8d50e6d-0b13-49c7-8c21-682dcfa6e1d2) with status code 201
+2022-03-22 16:33:36,875 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of b6f73041-3dd1-4435-b5ab-6753224428e6
+2022-03-22 16:33:37,391 - basicLogger - INFO - Returned event "Ride Order" response (Id: b6f73041-3dd1-4435-b5ab-6753224428e6) with status code 201
+2022-03-22 16:35:03,893 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 1f4b3047-f436-4f0e-a076-aedd1ffec43e
+2022-03-22 16:35:04,324 - basicLogger - INFO - Returned event "Ride Order" response (Id: 1f4b3047-f436-4f0e-a076-aedd1ffec43e) with status code 201
+2022-03-22 16:40:52,445 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 87f898fd-3dd0-41b1-be64-72e30f20eb3c
+2022-03-22 16:40:52,871 - basicLogger - INFO - Returned event "Ride Order" response (Id: 87f898fd-3dd0-41b1-be64-72e30f20eb3c) with status code 201
+2022-03-22 16:44:27,387 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of f4e50b08-bfed-46db-aafa-849c16538aec
+2022-03-22 16:44:27,802 - basicLogger - INFO - Returned event "Ride Order" response (Id: f4e50b08-bfed-46db-aafa-849c16538aec) with status code 201
+2022-03-22 16:45:44,724 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 1e871057-4bbd-42e5-a3a2-81e07336c718
+2022-03-22 16:45:45,127 - basicLogger - INFO - Returned event "Ride Order" response (Id: 1e871057-4bbd-42e5-a3a2-81e07336c718) with status code 201
+2022-03-29 15:32:01,186 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 60eb632d-4145-4f4c-816c-9cbfeaf35b23
+2022-03-29 15:32:01,645 - basicLogger - INFO - Returned event "Ride Order" response (Id: 60eb632d-4145-4f4c-816c-9cbfeaf35b23) with status code 201
+2022-03-29 15:38:16,944 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 11b2afda-9045-4ad6-a9a8-471eed73109b
+2022-03-29 15:38:17,371 - basicLogger - INFO - Returned event "Ride Order" response (Id: 11b2afda-9045-4ad6-a9a8-471eed73109b) with status code 201
+2022-03-29 15:38:25,083 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of a091e6f2-b94b-4968-a7fa-600a5c33187d
+2022-03-29 15:38:25,461 - basicLogger - INFO - Returned event "Ride Order" response (Id: a091e6f2-b94b-4968-a7fa-600a5c33187d) with status code 201
+2022-03-29 15:38:31,023 - basicLogger - INFO - Recieved event "Schedule Order" with a trace id of 56c2fabd-b7b7-4f0c-be9a-2f4307a7dc91
+2022-03-29 15:38:31,443 - basicLogger - INFO - Returned event "Schedule Order" response (Id: 56c2fabd-b7b7-4f0c-be9a-2f4307a7dc91) with status code 201
+2022-03-29 15:38:38,225 - basicLogger - INFO - Recieved event "Schedule Order" with a trace id of 33be8ab7-c1ac-4bef-8457-3c1b210eab08
+2022-03-29 15:38:38,653 - basicLogger - INFO - Returned event "Schedule Order" response (Id: 33be8ab7-c1ac-4bef-8457-3c1b210eab08) with status code 201
+2022-03-29 16:05:35,166 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 7d432d30-e503-4f00-b5f8-5760eeeb990e
+2022-03-29 16:05:35,567 - basicLogger - INFO - Returned event "Ride Order" response (Id: 7d432d30-e503-4f00-b5f8-5760eeeb990e) with status code 201
+2022-03-29 16:15:30,531 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 357c647a-e5cd-4b7e-8697-bbebdec06c69
+2022-03-29 16:15:30,944 - basicLogger - INFO - Returned event "Ride Order" response (Id: 357c647a-e5cd-4b7e-8697-bbebdec06c69) with status code 201
+2022-03-29 16:21:34,756 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of e7c65c72-7b0c-4932-9799-2e623d7710b4
+2022-03-29 16:21:35,174 - basicLogger - INFO - Returned event "Ride Order" response (Id: e7c65c72-7b0c-4932-9799-2e623d7710b4) with status code 201
+2022-03-29 16:23:15,551 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of b228a1fd-02ce-429e-87a6-b3a4226e7297
+2022-03-29 16:23:15,943 - basicLogger - INFO - Returned event "Ride Order" response (Id: b228a1fd-02ce-429e-87a6-b3a4226e7297) with status code 201
+2022-03-29 16:26:15,824 - basicLogger - INFO - Recieved event "Schedule Order" with a trace id of a7de3a7f-16de-4f35-aecc-1d3663cf3bd5
+2022-03-29 16:27:30,957 - basicLogger - INFO - Recieved event "Schedule Order" with a trace id of d9ac73b7-734c-49e5-8224-7ce850140c6c
+2022-03-29 16:27:31,379 - basicLogger - INFO - Returned event "Schedule Order" response (Id: d9ac73b7-734c-49e5-8224-7ce850140c6c) with status code 201
+2022-03-29 16:27:52,448 - basicLogger - INFO - Recieved event "Schedule Order" with a trace id of ede878b0-a073-4b38-b192-6598de7b0954
+2022-03-29 16:27:52,901 - basicLogger - INFO - Returned event "Schedule Order" response (Id: ede878b0-a073-4b38-b192-6598de7b0954) with status code 201
+2022-03-29 16:29:33,502 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 3a694ff2-36bc-41a4-b360-e9e54ccebb3b
+2022-03-29 16:29:33,912 - basicLogger - INFO - Returned event "Ride Order" response (Id: 3a694ff2-36bc-41a4-b360-e9e54ccebb3b) with status code 201
+2022-03-29 16:31:02,520 - basicLogger - INFO - Recieved event "Ride Order" with a trace id of 69497ec1-b214-48b5-b665-af7e40468b61
+2022-03-29 16:31:02,907 - basicLogger - INFO - Returned event "Ride Order" response (Id: 69497ec1-b214-48b5-b665-af7e40468b61) with status code 201
+2022-03-29 16:33:04,529 - basicLogger - INFO - Recieved event "Schedule Order" with a trace id of ea789030-ece9-4833-9e10-7e20aeceee16
+2022-03-29 16:33:04,940 - basicLogger - INFO - Returned event "Schedule Order" response (Id: ea789030-ece9-4833-9e10-7e20aeceee16) with status code 201

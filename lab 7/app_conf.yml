@@ -1,0 +1,5 @@
+version: 1
+events: 
+  hostname: ec2-52-60-109-143.ca-central-1.compute.amazonaws.com
+  port: 9092 
+  topic: events

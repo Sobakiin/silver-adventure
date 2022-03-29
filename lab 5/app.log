@@ -1,0 +1,895 @@
+2022-03-18 13:53:05,342 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:53:05,342 - basicLogger - INFO - Beginning request
+2022-03-18 13:53:10,318 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:53:10,318 - basicLogger - INFO - Beginning request
+2022-03-18 13:53:38,690 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:53:38,691 - basicLogger - INFO - Beginning request
+2022-03-18 13:55:05,897 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:55:05,897 - basicLogger - INFO - Beginning request
+2022-03-18 13:56:28,736 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:56:28,737 - basicLogger - INFO - Beginning request
+2022-03-18 13:58:00,926 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:58:00,928 - basicLogger - INFO - Beginning request
+2022-03-18 13:59:28,058 - basicLogger - INFO - Start periodic processing
+2022-03-18 13:59:28,060 - basicLogger - INFO - Beginning request
+2022-03-18 14:00:47,880 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:00:47,882 - basicLogger - INFO - Beginning request
+2022-03-18 14:03:06,060 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:03:06,062 - basicLogger - INFO - Beginning request
+2022-03-18 14:03:11,064 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:03:11,066 - basicLogger - INFO - Beginning request
+2022-03-18 14:03:32,489 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:03:32,489 - basicLogger - INFO - Beginning request
+2022-03-18 14:09:48,536 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:09:48,536 - basicLogger - INFO - Beginning request
+2022-03-18 14:11:21,460 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:11:21,460 - basicLogger - INFO - Beginning request
+2022-03-18 14:16:05,748 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:16:05,748 - basicLogger - INFO - Beginning request
+2022-03-18 14:47:08,813 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:47:08,813 - basicLogger - INFO - Beginning request
+2022-03-18 14:47:08,813 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 14:53:14,830 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:53:14,832 - basicLogger - INFO - Beginning request
+2022-03-18 14:53:14,832 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 14:53:19,840 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:53:19,842 - basicLogger - INFO - Beginning request
+2022-03-18 14:53:19,842 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 14:56:19,573 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:56:19,575 - basicLogger - INFO - Beginning request
+2022-03-18 14:56:19,583 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 14:56:19,583 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 14, 56, 19, 583640), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T14:56:19'}
+2022-03-18 14:56:19,583 - basicLogger - INFO - Request completed
+2022-03-18 14:58:48,859 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:58:48,861 - basicLogger - INFO - Beginning request
+2022-03-18 14:58:48,869 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 14:58:48,869 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 14, 58, 48, 869430), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T14:58:48'}
+2022-03-18 14:58:48,871 - basicLogger - INFO - Request completed
+2022-03-18 14:58:53,876 - basicLogger - INFO - Start periodic processing
+2022-03-18 14:58:53,876 - basicLogger - INFO - Beginning request
+2022-03-18 14:58:53,878 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 14:58:53,878 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 14, 58, 53, 878281), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T14:58:53'}
+2022-03-18 14:58:53,878 - basicLogger - INFO - Request completed
+2022-03-18 15:00:43,854 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:00:43,855 - basicLogger - INFO - Beginning request
+2022-03-18 15:00:43,855 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:00:43,855 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 0, 43, 855155), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:00:43'}
+2022-03-18 15:00:43,855 - basicLogger - INFO - Request completed
+2022-03-18 15:01:15,075 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:01:15,075 - basicLogger - INFO - Beginning request
+2022-03-18 15:01:15,085 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:01:15,085 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 1, 15, 85631), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:01:15'}
+2022-03-18 15:01:15,085 - basicLogger - INFO - Request completed
+2022-03-18 15:01:40,340 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:01:40,340 - basicLogger - INFO - Beginning request
+2022-03-18 15:01:40,350 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:01:40,350 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 1, 40, 350248), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:01:40'}
+2022-03-18 15:01:40,350 - basicLogger - INFO - Request completed
+2022-03-18 15:01:44,444 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:01:45,339 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:01:45,339 - basicLogger - INFO - Beginning request
+2022-03-18 15:01:45,341 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:01:45,341 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 1, 45, 341928), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:01:45'}
+2022-03-18 15:01:45,341 - basicLogger - INFO - Request completed
+2022-03-18 15:01:49,402 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:03:47,208 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:03:47,208 - basicLogger - INFO - Beginning request
+2022-03-18 15:03:47,218 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:03:47,218 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 3, 47, 218262), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:03:47'}
+2022-03-18 15:03:47,218 - basicLogger - INFO - Request completed
+2022-03-18 15:03:51,314 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:03:52,216 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:03:52,216 - basicLogger - INFO - Beginning request
+2022-03-18 15:03:52,218 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:03:52,218 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 3, 52, 218722), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:03:52'}
+2022-03-18 15:03:52,218 - basicLogger - INFO - Request completed
+2022-03-18 15:03:56,326 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:03:57,211 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:03:57,211 - basicLogger - INFO - Beginning request
+2022-03-18 15:03:57,213 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:03:57,213 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 3, 57, 213946), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:03:57'}
+2022-03-18 15:03:57,213 - basicLogger - INFO - Request completed
+2022-03-18 15:04:01,326 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:04:02,204 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:04:02,206 - basicLogger - INFO - Beginning request
+2022-03-18 15:04:02,206 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:04:02,206 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 4, 2, 206951), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:04:02'}
+2022-03-18 15:04:02,206 - basicLogger - INFO - Request completed
+2022-03-18 15:04:06,294 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:08:34,406 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:08:34,406 - basicLogger - INFO - Beginning request
+2022-03-18 15:08:34,416 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:08:34,416 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 8, 34, 416823), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:08:34'}
+2022-03-18 15:08:34,416 - basicLogger - INFO - Request completed
+2022-03-18 15:08:38,491 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:08:39,388 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:08:39,388 - basicLogger - INFO - Beginning request
+2022-03-18 15:08:39,390 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:08:39,390 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 8, 39, 390170), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:08:39'}
+2022-03-18 15:08:39,390 - basicLogger - INFO - Request completed
+2022-03-18 15:08:43,490 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:11:21,727 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:11:21,727 - basicLogger - INFO - Beginning request
+2022-03-18 15:11:21,734 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:11:21,734 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 11, 21, 734438), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:11:21'}
+2022-03-18 15:11:21,735 - basicLogger - INFO - Request completed
+2022-03-18 15:11:25,831 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:11:26,731 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:11:26,731 - basicLogger - INFO - Beginning request
+2022-03-18 15:11:26,733 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:11:26,734 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 11, 26, 734820), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:11:26'}
+2022-03-18 15:11:26,734 - basicLogger - INFO - Request completed
+2022-03-18 15:11:30,806 - basicLogger - ERROR - Recieved codes 404 and 404
+2022-03-18 15:15:33,971 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:15:33,971 - basicLogger - INFO - Beginning request
+2022-03-18 15:15:33,982 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:15:33,982 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 15, 33, 982220), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:15:33'}
+2022-03-18 15:15:33,982 - basicLogger - INFO - Request completed
+2022-03-18 15:15:38,126 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:15:38,963 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:15:38,963 - basicLogger - INFO - Beginning request
+2022-03-18 15:15:38,965 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:15:38,965 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 15, 38, 965456), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:15:38'}
+2022-03-18 15:15:38,965 - basicLogger - INFO - Request completed
+2022-03-18 15:15:43,058 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:15:43,954 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:15:43,954 - basicLogger - INFO - Beginning request
+2022-03-18 15:15:43,956 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:15:43,956 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 15, 43, 956812), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:15:43'}
+2022-03-18 15:15:43,956 - basicLogger - INFO - Request completed
+2022-03-18 15:15:48,066 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:16:52,157 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:16:52,159 - basicLogger - INFO - Beginning request
+2022-03-18 15:16:52,167 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:16:52,167 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 16, 52, 167738), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:16:52'}
+2022-03-18 15:16:52,167 - basicLogger - INFO - Request completed
+2022-03-18 15:16:56,276 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:16:57,171 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:16:57,173 - basicLogger - INFO - Beginning request
+2022-03-18 15:16:57,173 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:16:57,173 - basicLogger - DEBUG - Current statistics are: {'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 16, 57, 173087), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:16:57'}
+2022-03-18 15:16:57,173 - basicLogger - INFO - Request completed
+2022-03-18 15:17:01,259 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:18:35,799 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:18:35,799 - basicLogger - INFO - Beginning request
+2022-03-18 15:18:35,810 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:18:35,810 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 18, 35, 810174), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:18:35'}
+2022-03-18 15:18:35,810 - basicLogger - INFO - Request completed
+2022-03-18 15:18:39,908 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:21:48,314 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:21:48,314 - basicLogger - INFO - Beginning request
+2022-03-18 15:21:48,325 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:21:48,325 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 21, 48, 325102), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:21:48'}
+2022-03-18 15:21:48,325 - basicLogger - INFO - Request completed
+2022-03-18 15:21:52,437 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:22:38,151 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:22:38,151 - basicLogger - INFO - Beginning request
+2022-03-18 15:22:38,151 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:22:38,151 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 22, 38, 151648), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:22:38'}
+2022-03-18 15:22:38,151 - basicLogger - INFO - Request completed
+2022-03-18 15:22:42,280 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:26:39,131 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:26:39,131 - basicLogger - INFO - Beginning request
+2022-03-18 15:26:39,140 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:26:39,140 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 26, 39, 140652), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:26:39'}
+2022-03-18 15:26:39,140 - basicLogger - INFO - Request completed
+2022-03-18 15:26:43,253 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:26:43,253 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:26:44,131 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:26:44,132 - basicLogger - INFO - Beginning request
+2022-03-18 15:26:44,134 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:26:44,135 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 26, 44, 135801), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:26:44'}
+2022-03-18 15:26:44,135 - basicLogger - INFO - Request completed
+2022-03-18 15:26:48,248 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:26:49,142 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:26:49,143 - basicLogger - INFO - Beginning request
+2022-03-18 15:26:49,146 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:26:49,146 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 26, 49, 146277), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:26:49'}
+2022-03-18 15:26:49,146 - basicLogger - INFO - Request completed
+2022-03-18 15:26:53,223 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:26:53,223 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:26:54,135 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:26:54,137 - basicLogger - INFO - Beginning request
+2022-03-18 15:26:54,137 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:26:54,137 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 26, 54, 137952), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:26:54'}
+2022-03-18 15:26:54,137 - basicLogger - INFO - Request completed
+2022-03-18 15:26:58,250 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:26:59,125 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:26:59,127 - basicLogger - INFO - Beginning request
+2022-03-18 15:26:59,127 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:26:59,127 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 26, 59, 127904), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:26:59'}
+2022-03-18 15:26:59,127 - basicLogger - INFO - Request completed
+2022-03-18 15:27:03,242 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:28:28,688 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:28:28,689 - basicLogger - INFO - Beginning request
+2022-03-18 15:28:28,695 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:28:28,695 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 28, 28, 695969), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:28:28'}
+2022-03-18 15:28:28,696 - basicLogger - INFO - Request completed
+2022-03-18 15:28:32,825 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:28:33,696 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:28:33,696 - basicLogger - INFO - Beginning request
+2022-03-18 15:28:33,698 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:28:33,698 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 28, 33, 698470), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:28:33'}
+2022-03-18 15:28:33,698 - basicLogger - INFO - Request completed
+2022-03-18 15:28:37,775 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:31:05,757 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:31:05,759 - basicLogger - INFO - Beginning request
+2022-03-18 15:31:05,767 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:31:05,769 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 31, 5, 769922), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:31:05'}
+2022-03-18 15:31:05,769 - basicLogger - INFO - Request completed
+2022-03-18 15:31:09,874 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:31:09,879 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:09,879 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:09,879 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:09,879 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:09,879 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:10,767 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:31:10,769 - basicLogger - INFO - Beginning request
+2022-03-18 15:31:10,769 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:31:10,769 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 31, 10, 769391), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:31:10'}
+2022-03-18 15:31:10,769 - basicLogger - INFO - Request completed
+2022-03-18 15:31:14,886 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:31:14,886 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:14,886 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:14,886 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:14,886 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:14,896 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:37,086 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:31:37,086 - basicLogger - INFO - Beginning request
+2022-03-18 15:31:37,095 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:31:37,095 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 31, 37, 95069), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:31:37'}
+2022-03-18 15:31:37,095 - basicLogger - INFO - Request completed
+2022-03-18 15:31:41,209 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:31:41,209 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:41,209 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:41,217 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:41,217 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:41,217 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:42,104 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:31:42,106 - basicLogger - INFO - Beginning request
+2022-03-18 15:31:42,106 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 15:31:42,106 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 15, 31, 42, 106442), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T15:31:42'}
+2022-03-18 15:31:42,106 - basicLogger - INFO - Request completed
+2022-03-18 15:31:46,208 - basicLogger - INFO - Recieved code 200
+2022-03-18 15:31:46,216 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:46,216 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:46,216 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:46,216 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:31:46,216 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 15:57:52,538 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:57:52,539 - basicLogger - INFO - Beginning request
+2022-03-18 15:57:57,538 - basicLogger - INFO - Start periodic processing
+2022-03-18 15:57:57,538 - basicLogger - INFO - Beginning request
+2022-03-18 16:03:15,403 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:03:15,404 - basicLogger - INFO - Beginning request
+2022-03-18 16:03:47,539 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:03:47,540 - basicLogger - INFO - Beginning request
+2022-03-18 16:04:17,935 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:04:17,936 - basicLogger - INFO - Beginning request
+2022-03-18 16:04:56,293 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:04:56,294 - basicLogger - INFO - Beginning request
+2022-03-18 16:05:31,697 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:05:31,698 - basicLogger - INFO - Beginning request
+2022-03-18 16:05:31,707 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:05:31,708 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 5, 31, 708075), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:05:31'}
+2022-03-18 16:05:31,708 - basicLogger - INFO - Request completed
+2022-03-18 16:05:35,792 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:05:35,792 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:35,793 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:35,793 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:35,793 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:35,794 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:36,702 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:05:36,703 - basicLogger - INFO - Beginning request
+2022-03-18 16:05:36,705 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:05:36,706 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 5, 36, 706092), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:05:36'}
+2022-03-18 16:05:36,706 - basicLogger - INFO - Request completed
+2022-03-18 16:05:40,808 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:05:40,809 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:40,809 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:40,809 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:40,810 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:05:40,810 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:20,865 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:06:20,866 - basicLogger - INFO - Beginning request
+2022-03-18 16:06:20,875 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:06:20,876 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 6, 20, 876229), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:06:20'}
+2022-03-18 16:06:20,876 - basicLogger - INFO - Request completed
+2022-03-18 16:06:24,988 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:06:24,989 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,989 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,989 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,990 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,990 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,990 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,991 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:24,991 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:25,874 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:06:25,875 - basicLogger - INFO - Beginning request
+2022-03-18 16:06:25,878 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:06:25,878 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 6, 25, 878235), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:06:25'}
+2022-03-18 16:06:25,879 - basicLogger - INFO - Request completed
+2022-03-18 16:06:29,978 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:06:29,978 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,979 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,979 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,980 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,980 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,980 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,981 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:06:29,981 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:07:58,315 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:07:58,316 - basicLogger - INFO - Beginning request
+2022-03-18 16:07:58,327 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:07:58,328 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 7, 58, 327057), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:07:58'}
+2022-03-18 16:07:58,329 - basicLogger - INFO - Request completed
+2022-03-18 16:08:02,437 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:08:02,437 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,438 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,438 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,439 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,439 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,440 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,440 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:02,441 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:03,319 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:08:03,319 - basicLogger - INFO - Beginning request
+2022-03-18 16:08:03,323 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:08:03,324 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 8, 3, 324262), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:08:03'}
+2022-03-18 16:08:03,324 - basicLogger - INFO - Request completed
+2022-03-18 16:08:07,427 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:08:07,428 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,428 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,429 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,429 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,430 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,430 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,431 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:08:07,432 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:30,302 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:09:30,303 - basicLogger - INFO - Beginning request
+2022-03-18 16:09:30,312 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:09:30,312 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 9, 30, 312161), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:09:30'}
+2022-03-18 16:09:30,312 - basicLogger - INFO - Request completed
+2022-03-18 16:09:34,433 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:09:34,433 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,434 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,434 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,435 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,435 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,435 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,436 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:34,436 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:35,300 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:09:35,301 - basicLogger - INFO - Beginning request
+2022-03-18 16:09:35,304 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:09:35,305 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 9, 35, 305004), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:09:35'}
+2022-03-18 16:09:35,305 - basicLogger - INFO - Request completed
+2022-03-18 16:09:39,406 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:09:39,407 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,407 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,408 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,408 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,409 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,409 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,409 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:09:39,410 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:10:59,853 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:10:59,855 - basicLogger - INFO - Beginning request
+2022-03-18 16:10:59,867 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:10:59,868 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 10, 59, 868242), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:10:59'}
+2022-03-18 16:10:59,869 - basicLogger - INFO - Request completed
+2022-03-18 16:11:03,969 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:11:03,969 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,970 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,970 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,971 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,971 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,973 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,973 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:03,973 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:04,860 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:11:04,861 - basicLogger - INFO - Beginning request
+2022-03-18 16:11:04,864 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:11:04,865 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 11, 4, 864043), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:11:04'}
+2022-03-18 16:11:04,865 - basicLogger - INFO - Request completed
+2022-03-18 16:11:08,968 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:11:08,969 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,969 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,969 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,970 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,970 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,970 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,971 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:11:08,971 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:18,533 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:19:18,534 - basicLogger - INFO - Beginning request
+2022-03-18 16:19:18,546 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:19:18,547 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 19, 18, 546943), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:19:18'}
+2022-03-18 16:19:18,547 - basicLogger - INFO - Request completed
+2022-03-18 16:19:22,648 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:19:22,649 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,649 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,650 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,650 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,651 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,651 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,652 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:22,652 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:23,546 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:19:23,547 - basicLogger - INFO - Beginning request
+2022-03-18 16:19:23,551 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:19:23,551 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 19, 23, 551723), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:19:23'}
+2022-03-18 16:19:23,552 - basicLogger - INFO - Request completed
+2022-03-18 16:19:27,630 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:19:27,631 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,631 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,632 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,632 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,633 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,633 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,634 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:19:27,634 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:17,907 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:20:17,908 - basicLogger - INFO - Beginning request
+2022-03-18 16:20:17,921 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:20:17,922 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 20, 17, 921072), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:20:17'}
+2022-03-18 16:20:17,922 - basicLogger - INFO - Request completed
+2022-03-18 16:20:22,025 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:20:22,025 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,026 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,027 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,027 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,028 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,028 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,029 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:20:22,029 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:17,226 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:25:17,227 - basicLogger - INFO - Beginning request
+2022-03-18 16:25:17,236 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:25:17,237 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 25, 17, 237099), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:25:17'}
+2022-03-18 16:25:17,237 - basicLogger - INFO - Request completed
+2022-03-18 16:25:21,367 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:25:21,367 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,368 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,368 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,369 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,369 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,369 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,370 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:21,370 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:22,220 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:25:22,221 - basicLogger - INFO - Beginning request
+2022-03-18 16:25:22,224 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:25:22,224 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 25, 22, 224023), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:25:22'}
+2022-03-18 16:25:22,225 - basicLogger - INFO - Request completed
+2022-03-18 16:25:26,347 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:25:26,348 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,348 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,349 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,349 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,349 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,350 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,350 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:26,351 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:47,208 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:25:47,209 - basicLogger - INFO - Beginning request
+2022-03-18 16:25:47,219 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:25:47,219 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 25, 47, 219808), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:25:47'}
+2022-03-18 16:25:47,219 - basicLogger - INFO - Request completed
+2022-03-18 16:25:51,308 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:25:51,308 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,309 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,309 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,309 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,310 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,310 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,310 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:51,311 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:52,215 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:25:52,216 - basicLogger - INFO - Beginning request
+2022-03-18 16:25:52,219 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:25:52,219 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 25, 52, 219577), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:25:52'}
+2022-03-18 16:25:52,220 - basicLogger - INFO - Request completed
+2022-03-18 16:25:56,311 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:25:56,312 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,312 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,312 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,313 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,313 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,313 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,314 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:25:56,314 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:29,437 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:26:29,438 - basicLogger - INFO - Beginning request
+2022-03-18 16:26:29,445 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:26:29,445 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 26, 29, 445161), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:26:29'}
+2022-03-18 16:26:29,445 - basicLogger - INFO - Request completed
+2022-03-18 16:26:33,532 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:26:33,532 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,532 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,532 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,533 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,533 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,533 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,533 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:26:33,533 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:48,413 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:33:48,414 - basicLogger - INFO - Beginning request
+2022-03-18 16:33:48,427 - basicLogger - ERROR - No stats to pull, sending defaults
+2022-03-18 16:33:48,428 - basicLogger - DEBUG - Current statistics are: {'num_orders': 0, 'most_frequent_arrival': datetime.datetime(2022, 3, 18, 16, 33, 48, 427174), 'most_requested_destination': '123 Street Ave', 'mean_passengers': '2', 'num_schedules': 0, 'last_updated': '2022-03-18T16:33:48'}
+2022-03-18 16:33:48,428 - basicLogger - INFO - Request completed
+2022-03-18 16:33:52,533 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:33:52,533 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,534 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,534 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,535 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,535 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,536 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,536 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:52,537 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:53,417 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:33:53,417 - basicLogger - INFO - Beginning request
+2022-03-18 16:33:53,423 - basicLogger - DEBUG - Current statistics are: {'num_orders': 5, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 3, 'last_updated': '2022-03-18T16:33:48'}
+2022-03-18 16:33:53,423 - basicLogger - INFO - Request completed
+2022-03-18 16:33:57,512 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:33:57,513 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,513 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,514 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,514 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,515 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,515 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,516 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:33:57,516 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:12,050 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:36:12,051 - basicLogger - INFO - Beginning request
+2022-03-18 16:36:12,060 - basicLogger - DEBUG - Current statistics are: {'num_orders': 10, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 6, 'last_updated': '2022-03-18T16:33:53'}
+2022-03-18 16:36:12,060 - basicLogger - INFO - Request completed
+2022-03-18 16:36:16,172 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:36:16,173 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,173 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,173 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,174 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,174 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,174 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,175 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:36:16,175 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:13,229 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:43:13,230 - basicLogger - INFO - Beginning request
+2022-03-18 16:43:13,241 - basicLogger - DEBUG - Current statistics are: {'num_orders': 15, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 9, 'last_updated': '2022-03-18T16:36:12'}
+2022-03-18 16:43:13,242 - basicLogger - INFO - Request completed
+2022-03-18 16:43:17,345 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:43:17,346 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,346 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,346 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,346 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,347 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,347 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,347 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,347 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:17,366 - basicLogger - DEBUG - Logged staistics of last five seconds as Stats object: {'num_orders': 20, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 12, 'last_updated': '2022-03-18T16:43:13'}
+2022-03-18 16:43:18,235 - basicLogger - INFO - Start periodic processing
+2022-03-18 16:43:18,235 - basicLogger - INFO - Beginning request
+2022-03-18 16:43:18,239 - basicLogger - DEBUG - Current statistics are: {'num_orders': 20, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 12, 'last_updated': '2022-03-18T16:43:13'}
+2022-03-18 16:43:18,239 - basicLogger - INFO - Request completed
+2022-03-18 16:43:22,320 - basicLogger - INFO - Recieved code 200
+2022-03-18 16:43:22,321 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,321 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,321 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,322 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,322 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,322 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,322 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,323 - basicLogger - DEBUG - Processed event trace id: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+2022-03-18 16:43:22,336 - basicLogger - DEBUG - Logged staistics of last five seconds as Stats object: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:17,515 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:17,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:17,541 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:17,541 - basicLogger - INFO - Request completed
+2022-03-22 16:29:22,818 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:27,505 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:27,505 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:27,508 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:27,508 - basicLogger - INFO - Request completed
+2022-03-22 16:29:32,356 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:32,513 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:32,514 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:32,519 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:32,520 - basicLogger - INFO - Request completed
+2022-03-22 16:29:37,182 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:37,513 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:37,514 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:37,518 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:37,519 - basicLogger - INFO - Request completed
+2022-03-22 16:29:42,055 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:42,519 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:42,520 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:42,523 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:42,524 - basicLogger - INFO - Request completed
+2022-03-22 16:29:46,945 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:47,510 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:47,510 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:47,513 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:47,513 - basicLogger - INFO - Request completed
+2022-03-22 16:29:51,855 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:52,521 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:52,521 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:52,523 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:52,524 - basicLogger - INFO - Request completed
+2022-03-22 16:29:56,871 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:29:57,506 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:29:57,506 - basicLogger - INFO - Beginning request
+2022-03-22 16:29:57,509 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:29:57,509 - basicLogger - INFO - Request completed
+2022-03-22 16:30:02,044 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:02,506 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:02,506 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:02,509 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:02,510 - basicLogger - INFO - Request completed
+2022-03-22 16:30:06,863 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:07,514 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:07,514 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:07,517 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:07,517 - basicLogger - INFO - Request completed
+2022-03-22 16:30:12,549 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:17,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:17,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:17,519 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:17,519 - basicLogger - INFO - Request completed
+2022-03-22 16:30:21,781 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:22,510 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:22,510 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:22,513 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:22,513 - basicLogger - INFO - Request completed
+2022-03-22 16:30:26,955 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:27,520 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:27,520 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:27,522 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:27,523 - basicLogger - INFO - Request completed
+2022-03-22 16:30:31,874 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:32,508 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:32,508 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:32,510 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:32,511 - basicLogger - INFO - Request completed
+2022-03-22 16:30:36,884 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:37,517 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:37,518 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:37,523 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:37,532 - basicLogger - INFO - Request completed
+2022-03-22 16:30:41,779 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:42,526 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:42,526 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:42,531 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:42,531 - basicLogger - INFO - Request completed
+2022-03-22 16:30:46,912 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:47,513 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:47,514 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:47,518 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:47,518 - basicLogger - INFO - Request completed
+2022-03-22 16:30:51,916 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:52,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:52,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:52,521 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:52,521 - basicLogger - INFO - Request completed
+2022-03-22 16:30:57,087 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:30:57,518 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:30:57,518 - basicLogger - INFO - Beginning request
+2022-03-22 16:30:57,523 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:30:57,524 - basicLogger - INFO - Request completed
+2022-03-22 16:31:01,905 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:02,512 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:02,512 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:02,516 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:02,517 - basicLogger - INFO - Request completed
+2022-03-22 16:31:07,252 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:07,511 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:07,511 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:07,513 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:07,513 - basicLogger - INFO - Request completed
+2022-03-22 16:31:11,740 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:12,520 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:12,521 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:12,525 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:12,525 - basicLogger - INFO - Request completed
+2022-03-22 16:31:16,938 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:17,502 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:17,502 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:17,506 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:17,507 - basicLogger - INFO - Request completed
+2022-03-22 16:31:21,875 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:22,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:22,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:22,519 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:22,519 - basicLogger - INFO - Request completed
+2022-03-22 16:31:27,156 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:27,513 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:27,514 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:27,519 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:27,519 - basicLogger - INFO - Request completed
+2022-03-22 16:31:31,767 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:32,512 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:32,512 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:32,514 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:32,514 - basicLogger - INFO - Request completed
+2022-03-22 16:31:36,880 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:37,522 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:37,522 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:37,525 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:37,526 - basicLogger - INFO - Request completed
+2022-03-22 16:31:42,645 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:47,517 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:47,518 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:47,522 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:47,522 - basicLogger - INFO - Request completed
+2022-03-22 16:31:51,770 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:52,515 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:52,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:52,521 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:52,521 - basicLogger - INFO - Request completed
+2022-03-22 16:31:56,938 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:31:57,510 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:31:57,511 - basicLogger - INFO - Beginning request
+2022-03-22 16:31:57,515 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:31:57,516 - basicLogger - INFO - Request completed
+2022-03-22 16:32:01,912 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:02,524 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:02,524 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:02,528 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:02,529 - basicLogger - INFO - Request completed
+2022-03-22 16:32:06,838 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:07,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:07,517 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:07,521 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:07,521 - basicLogger - INFO - Request completed
+2022-03-22 16:32:11,948 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:12,502 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:12,503 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:12,506 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:12,507 - basicLogger - INFO - Request completed
+2022-03-22 16:32:16,865 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:17,510 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:17,510 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:17,514 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:17,515 - basicLogger - INFO - Request completed
+2022-03-22 16:32:21,889 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:22,522 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:22,522 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:22,525 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:22,525 - basicLogger - INFO - Request completed
+2022-03-22 16:32:26,771 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:27,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:27,517 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:27,521 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:27,521 - basicLogger - INFO - Request completed
+2022-03-22 16:32:31,912 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:32,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:32,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:32,520 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:32,521 - basicLogger - INFO - Request completed
+2022-03-22 16:32:36,889 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:37,508 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:37,508 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:37,510 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:37,510 - basicLogger - INFO - Request completed
+2022-03-22 16:32:42,093 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:42,514 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:42,514 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:42,519 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:42,520 - basicLogger - INFO - Request completed
+2022-03-22 16:32:46,896 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:47,519 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:47,520 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:47,524 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:47,524 - basicLogger - INFO - Request completed
+2022-03-22 16:32:52,204 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:52,504 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:52,505 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:52,510 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:52,511 - basicLogger - INFO - Request completed
+2022-03-22 16:32:57,114 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:32:57,508 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:32:57,508 - basicLogger - INFO - Beginning request
+2022-03-22 16:32:57,512 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:32:57,513 - basicLogger - INFO - Request completed
+2022-03-22 16:33:01,935 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:02,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:02,517 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:02,522 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:02,522 - basicLogger - INFO - Request completed
+2022-03-22 16:33:07,002 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:07,507 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:07,507 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:07,511 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:07,512 - basicLogger - INFO - Request completed
+2022-03-22 16:33:12,212 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:12,507 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:12,507 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:12,510 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:12,510 - basicLogger - INFO - Request completed
+2022-03-22 16:33:16,709 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:17,502 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:17,502 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:17,504 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:17,505 - basicLogger - INFO - Request completed
+2022-03-22 16:33:21,849 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:22,513 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:22,513 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:22,516 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:22,516 - basicLogger - INFO - Request completed
+2022-03-22 16:33:26,852 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:27,522 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:27,522 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:27,525 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:27,525 - basicLogger - INFO - Request completed
+2022-03-22 16:33:31,736 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:32,510 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:32,510 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:32,512 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:32,513 - basicLogger - INFO - Request completed
+2022-03-22 16:33:36,856 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:37,508 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:37,508 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:37,511 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:37,511 - basicLogger - INFO - Request completed
+2022-03-22 16:33:42,172 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:42,516 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:42,516 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:42,519 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:42,519 - basicLogger - INFO - Request completed
+2022-03-22 16:33:46,758 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:47,512 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:47,512 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:47,514 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:47,515 - basicLogger - INFO - Request completed
+2022-03-22 16:33:51,858 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:52,518 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:52,518 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:52,522 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:52,522 - basicLogger - INFO - Request completed
+2022-03-22 16:33:57,204 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-22 16:33:57,507 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:33:57,507 - basicLogger - INFO - Beginning request
+2022-03-22 16:33:57,512 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:33:57,512 - basicLogger - INFO - Request completed
+2022-03-22 16:34:02,502 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:02,502 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:02,505 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:02,505 - basicLogger - INFO - Request completed
+2022-03-22 16:34:07,509 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:07,509 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:07,512 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:07,512 - basicLogger - INFO - Request completed
+2022-03-22 16:34:12,515 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:12,515 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:12,517 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:12,518 - basicLogger - INFO - Request completed
+2022-03-22 16:34:17,503 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:17,503 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:17,506 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:17,507 - basicLogger - INFO - Request completed
+2022-03-22 16:34:22,520 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:22,523 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:22,530 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:22,533 - basicLogger - INFO - Request completed
+2022-03-22 16:34:27,511 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:27,512 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:27,516 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:27,517 - basicLogger - INFO - Request completed
+2022-03-22 16:34:32,523 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:32,524 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:32,531 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:32,533 - basicLogger - INFO - Request completed
+2022-03-22 16:34:37,504 - basicLogger - INFO - Start periodic processing
+2022-03-22 16:34:37,504 - basicLogger - INFO - Beginning request
+2022-03-22 16:34:37,507 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-22 16:34:37,508 - basicLogger - INFO - Request completed
+2022-03-29 14:15:25,214 - basicLogger - INFO - Start periodic processing
+2022-03-29 14:15:25,216 - basicLogger - INFO - Beginning request
+2022-03-29 14:15:25,254 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-29 14:15:25,255 - basicLogger - INFO - Request completed
+2022-03-29 14:15:49,457 - basicLogger - ERROR - Recieved codes 500 and 500
+2022-03-29 14:15:50,208 - basicLogger - INFO - Start periodic processing
+2022-03-29 14:15:50,208 - basicLogger - INFO - Beginning request
+2022-03-29 14:15:50,210 - basicLogger - DEBUG - Current statistics are: {'num_orders': 25, 'most_frequent_arrival': datetime.datetime(2022, 1, 19, 14, 20), 'most_requested_destination': '123 Londsdale Ave', 'mean_passengers': 3, 'num_schedules': 15, 'last_updated': '2022-03-18T16:43:18'}
+2022-03-29 14:15:50,211 - basicLogger - INFO - Request completed
+2022-03-29 14:16:14,335 - basicLogger - ERROR - Recieved codes 500 and 500

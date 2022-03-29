@@ -1,0 +1,147 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This is an API that recieves requests for   immediate rides and schedules for a ride-share app
+  version: "1.0.0"
+  title: Simple Ride-share API
+  contact:
+    email: wgreen16@my.bcit.ca
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: request
+    description: requested sent about a ride
+paths:
+  /requests/ride-order:
+    get: 
+      tags: 
+        -  request
+      summary: gets new destination requests
+      operationId: app.get_order_ride
+      description: Gets trips to a destination requested after a timestamp 
+      parameters: 
+        - name: timestamp 
+          in: query 
+          description: Limits the number of items on a page 
+          schema: 
+            type: string 
+            format: date-time 
+            example: 2016-08-29T09:12:33 
+      responses: 
+        '200': 
+          description: Successfully returned a list of ride order events 
+          content: 
+            application/json: 
+              schema: 
+                type: array 
+                items: 
+                  $ref: '#/components/schemas/RideOrder' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string    
+  /requests/schedule-order:
+    get: 
+      tags: 
+        - request 
+      summary: gets new scheduled ride requests 
+      operationId: app.get_schedule_ride
+      description: Gets scheduled ride requests made after a timestamp 
+      parameters: 
+        - name: timestamp 
+          in: query 
+          description: Limits the number of items on a page 
+          schema: 
+            type: string 
+            format: date-time 
+            example: 2016-08-29T09:12:33 
+      responses: 
+        '200': 
+          description: Successfully returned a list of scheduled rides 
+          content: 
+            application/json: 
+              schema: 
+                type: array 
+                items: 
+                  $ref: '#/components/schemas/ScheduleOrder' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string
+components:
+  schemas:
+    RideOrder:
+      type: object
+      required:
+        - user_id
+        - order_time
+        - starting_point
+        - destination
+        - max_passenger
+        - trace_id
+      properties:
+        user_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        order_time:
+          type: string
+          format: date-time
+          example: "2022-01-19T14:20:00"
+        starting_point:
+          type: string
+          example: '123 Granville St'
+        destination:
+          type: string
+          example: '123 Londsdale Ave'
+        max_passenger:
+          type: integer
+          example: 3
+        trace_id:
+          type: string
+          format: uuid
+          example: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+    ScheduleOrder:
+      required:
+        - user_id
+        - order_time
+        - interval_start
+        - interval_end
+        - destination
+        - trace_id
+      properties:
+        user_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        order_time:
+          type: string
+          format: date-time
+          example: '2022-01-19T14:20:00'
+        interval_start:
+          type: string
+          format: date-time
+          example: '2022-01-19T14:20:00'
+        interval_end:
+          type: string
+          format: date-time
+          example: '2022-01-19T14:20:00'
+        destination:
+          type: string
+          example: '123 Lonsdale ave'
+        trace_id:
+          type: string
+          format: uuid
+          example: b2aa8e1f-6bea-46b5-a388-09892bc26edf
+      type: object

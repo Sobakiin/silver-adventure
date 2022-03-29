@@ -1,0 +1,59 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This is an API that provies event stats
+  version: "1.0.0"
+  title: Stats API
+  contact:
+    email: wgreen16@my.bcit.ca
+paths:
+  /stats:
+    get:
+      summary: Gets the stats for orders and schedule requests
+      operationId: app.get_status
+      description: Gets ride orders and ride schedules processed statistics
+      responses:
+        '201':
+          description: item created
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#components/schemas/ReadingStats'
+        '400':
+          description: 'invalid input, object invalid'
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+        - num_orders
+        - most_requested_destination
+        - mean_passengers
+        - num_schedules
+        - most_frequent_arrival
+      properties:
+        num_orders:
+          type: integer
+          example: 3000
+        most_requested_destination:
+          type: string
+          example: '123 Street ave'
+        mean_passengers:
+          type: integer
+          example: 3
+        num_schedules:
+          type: integer
+          example: 3000
+        most_frequent_arrival:
+          type: string 
+          format: date-time 
+          example: 2016-08-29T09:12:33.001Z
+      type: object
