@@ -10,6 +10,7 @@ from base import Base
 from ride_order import RideOrder
 from schedule_ride import RideSchedule
 from stats import Stats
+from flask_cors import CORS, cross_origin
 import datetime
 import yaml
 import logging
@@ -128,6 +129,8 @@ def get_status():
 
 
 app = connexion.FlaskApp(__name__,specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS']='Content-Type'
 app.add_api("RideStatsAPI.yaml",strict_validation=True,validate_responses=True)
 
 
