@@ -39,48 +39,6 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 logger.info(f'Connecting to DB. Hostname:{app_config["datastore"]["hostname"]}, Port:{app_config["datastore"]["port"]}')
 
-'''
-def order_ride_immediately(body):
-    #print(body)
-    # request_bio = f'User {body["user_id"]} requested a {body["max_passenger"]} ride from {body["starting_point"]} to {body["destination"]} at {body["order_time"]}.'
-    # json_write(request_bio)
-
-    session = DB_SESSION()
-
-    ro = RideOrder(body['user_id'],
-                    body['starting_point'],
-                    body['destination'],
-                    body['max_passenger'],
-                    body['trace_id'])
-
-    session.add(ro)
-
-    session.commit()
-    session.close()
-    logger.debug(f'Stored event order_ride_immediately request with a trace id of {body["trace_id"]} ')
-    return NoContent,201
-
-def schedule_ride(body):
-    #print(body)    
-    # request_bio = f'User {body["user_id"]} is scheduling a ride to {body["destination"]} between {body["interval_start"]} and {body["interval_end"]} at {body["order_time"]}.'
-    # json_write(request_bio)
-    session = DB_SESSION()
-
-    rs = RideSchedule(body['user_id'],
-                    body['interval_start'],
-                    body['interval_end'],
-                    body['destination'],
-                    body['trace_id'])
-
-    session.add(rs)
-
-    session.commit()
-    session.close()
-    logger.debug(f'Stored event schedule_ride request with a trace id of {body["trace_id"]} ')
-    
-    return NoContent,201
-'''
-
 def get_order_ride(timestamp):
     """Gets ride orders after the timestamp"""
 

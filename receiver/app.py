@@ -1,5 +1,3 @@
-from asyncio import events
-from urllib import response
 import connexion
 from connexion import NoContent
 from flask import jsonify

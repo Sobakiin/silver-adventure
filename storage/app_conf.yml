@@ -1,0 +1,11 @@
+version: 1
+events: 
+  hostname: ec2-35-182-244-214.ca-central-1.compute.amazonaws.com
+  port: 9092 
+  topic: events
+datastore:
+  user: user
+  password: password
+  hostname: ec2-35-182-244-214.ca-central-1.compute.amazonaws.com
+  port: 3306
+  db: events
