@@ -1,9 +1,11 @@
+from operator import and_
 from unittest import result
 import connexion
 from connexion import NoContent
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy import and_
 from base import Base
 from ride_order import RideOrder
 from schedule_ride import RideSchedule
@@ -39,14 +41,14 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 logger.info(f'Connecting to DB. Hostname:{app_config["datastore"]["hostname"]}, Port:{app_config["datastore"]["port"]}')
 
-def get_order_ride(timestamp):
+def get_order_ride(start_timestamp, end_timestamp):
     """Gets ride orders after the timestamp"""
 
     session = DB_SESSION()
 
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")
-
-    orders = session.query(RideOrder).filter(RideOrder.order_time >= timestamp_datetime)
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S")
+    orders = session.query(RideOrder).filter(and_(RideOrder.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
     results_list = []
 
@@ -64,9 +66,9 @@ def get_schedule_ride(timestamp):
 
     session = DB_SESSION()
 
-    timestamp_datetime = datetime.datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S')
-
-    orders = session.query(RideSchedule).filter(RideSchedule.order_time >= timestamp_datetime)
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S")
+    orders = session.query(RideOrder).filter(and_(RideOrder.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
     results_list = []
 
