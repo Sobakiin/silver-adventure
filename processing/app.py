@@ -48,8 +48,8 @@ def populate_stats():
     current_time  = datetime.datetime.now()
     
     #Timestamps to check only new entries
-    response_ride= requests.get(f'{app_config["eventstore"]["url"]}/ride-order',params={'timestamp':current_stats["last_updated"]})
-    response_schedule= requests.get(f'{app_config["eventstore"]["url"]}/schedule-order',params={'timestamp':current_stats["last_updated"]})
+    response_ride= requests.get(f'{app_config["eventstore"]["url"]}/ride-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":datetime.datetime.now()})
+    response_schedule= requests.get(f'{app_config["eventstore"]["url"]}/schedule-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":datetime.datetime.now()})
     if(response_ride.status_code == 200 & response_schedule.status_code==200):
         logger.info(f'Recieved code 200')
     else:
