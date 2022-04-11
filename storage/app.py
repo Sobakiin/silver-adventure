@@ -14,7 +14,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from base import Base
 from ride_order import RideOrder
-from ride_schedule import RideScedule
+from schedule_ride import RideScedule
 from sqlalchemy import and_
 from time import sleep
 
