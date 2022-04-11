@@ -4,6 +4,6 @@ eventstore1:
 eventstore2:
   url: http://localhost:8090/requests/schedule-order
 events:
-  hostname: ec2-35-182-237-117.ca-central-1.compute.amazonaws.com
+  hostname: ec2-3-96-179-33.ca-central-1.compute.amazonaws.com
   port: 9092
   topic: events
