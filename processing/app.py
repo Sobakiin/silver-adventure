@@ -128,7 +128,7 @@ def get_status():
     
     logger.debug(f'Current statistics are: {content}')
     logger.info('Request completed')
-    return content, 200
+    return content
 
 app = connexion.FlaskApp(__name__,specification_dir='')
 CORS(app.app)
