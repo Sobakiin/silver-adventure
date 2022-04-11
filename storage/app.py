@@ -51,8 +51,8 @@ def get_order_ride(start_timestamp, end_timestamp):
 
     session = DB_SESSION()
 
-    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
 
     orders = session.query(RideOrder).filter(and_(RideOrder.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
@@ -74,8 +74,8 @@ def get_schedule_ride(start_timestamp, end_timestamp):
 
     session = DB_SESSION()
 
-    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
     
     orders = session.query(RideSchedule).filter(and_(RideSchedule.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
