@@ -13,8 +13,8 @@ from connexion import NoContent
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from base import Base
-from member_checkin import RideOrder
-from gym_equipment import RideScedule
+from ride_order import RideOrder
+from ride_schedule import RideScedule
 from sqlalchemy import and_
 from time import sleep
 
