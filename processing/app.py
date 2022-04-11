@@ -83,7 +83,7 @@ def populate_stats():
     for j in response_schedule.json():
         arrival.append(j["interval_end"])        
 
-    most_frequent_arrival=datetime.datetime.strptime(statistics.mode(arrival),"%Y-%m-%dT%H:%M:%S.%fZ")
+    most_frequent_arrival=datetime.datetime.strptime(statistics.mode(arrival),"%Y-%m-%dT%H:%M:%SZ")
 
     new_stats = Stats(num_orders,most_req_dest,mean_passengers,num_schedules,most_frequent_arrival,current_time)
 
