@@ -60,12 +60,11 @@ def get_order_ride(start_timestamp, end_timestamp):
 
     results_list = []
 
-    for reading in readings:
+    for reading in orders:
         results_list.append(reading.to_dict())
 
     session.close()
 
-    orders = session.query(RideSchedule).filter(and_(RideSchedule.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
     return results_list, 200
 
@@ -78,9 +77,7 @@ def get_schedule_ride(start_timestamp, end_timestamp):
     start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
     end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
     
-    readings = session.query(GymEquipment).filter(
-        and_(GymEquipment.date_created >= start_timestamp_datetime,
-        GymEquipment.date_created < end_timestamp_datetime) )
+    orders = session.query(RideSchedule).filter(and_(RideSchedule.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
     results_list = []
 
