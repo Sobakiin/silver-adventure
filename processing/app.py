@@ -11,6 +11,7 @@ from ride_order import RideOrder
 from schedule_ride import RideSchedule
 from stats import Stats
 from flask_cors import CORS, cross_origin
+from collections import Counter
 import datetime
 import yaml
 import logging
@@ -48,8 +49,8 @@ def populate_stats():
     current_time  = datetime.datetime.now()
     
     #Timestamps to check only new entries
-    response_ride= requests.get(f'{app_config["eventstore"]["url"]}/ride-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":datetime.datetime.now()})
-    response_schedule= requests.get(f'{app_config["eventstore"]["url"]}/schedule-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":datetime.datetime.now()})
+    response_ride= requests.get(f'{app_config["eventstore"]["url"]}/ride-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":current_time.strftime("%Y-%m-%dT%H:%M:%S.%fZ")})
+    response_schedule= requests.get(f'{app_config["eventstore"]["url"]}/schedule-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":current_time.strftime("%Y-%m-%dT%H:%M:%S.%fZ")})
     if(response_ride.status_code == 200 & response_schedule.status_code==200):
         logger.info(f'Recieved code 200')
     else:
@@ -77,18 +78,23 @@ def populate_stats():
             num_orders=current_stats['num_orders']
             most_req_dest="N/A"
             mean_passengers="N/A"
-        if(len(response_schedule.json())!=0):
+        if(1==0):
             arrival=[]
             for j in response_schedule.json():
                 logger.debug(f'Processed event trace id: {j["trace_id"]}')
                 arrival.append(j["interval_end"])        
             
             num_schedules=current_stats["num_schedules"]+len(response_schedule.json())
-            most_frequent_arrival=datetime.datetime.strptime(statistics.mode(arrival),"%Y-%m-%dT%H:%M:%S.%fZ")
+            most_frequent_arrival=datetime.datetime.strptime(arrival[0],"%Y-%m-%dT%H:%M:%S.%f")
             print(arrival)
         else:
-            num_schedules=current_stats["num_schedules"]
-            most_frequent_arrival="N/A"
+            for j in response_schedule.json():
+                logger.debug(f'Processed event trace id: {j["trace_id"]}')
+                #arrival.append(j["interval_end"])
+
+            num_schedules=current_stats["num_schedules"]+len(response_schedule.json())
+            
+            most_frequent_arrival=datetime.datetime.now()
         new_stats = Stats(num_orders,most_req_dest,mean_passengers,num_schedules,most_frequent_arrival,current_time)
       
         session = DB_SESSION()
@@ -120,13 +126,18 @@ def get_status():
     latest_stats=most_recent_stats()
     if latest_stats == None:
         logger.error('No stats to pull, sending defaults')
-        latest_stats= Stats(0,'123 Street Ave','2',0,datetime.datetime.now(),datetime.datetime.now())
+        latest_stats= Stats(0,'123 Street Ave','2',0,datetime.datetime.strptime("2000-09-10T12:00:00.000Z","%Y-%m-%dT%H:%M:%S.%fZ"),datetime.datetime.strptime("2000-09-10T12:00:00.000Z","%Y-%m-%dT%H:%M:%S.%fZ"))
     
     content = latest_stats.to_dict()
     logger.debug(f'Current statistics are: {content}')
     logger.info('Request completed')
     return content, 200
 
+def get_all_modes(a):
+    c = Counter(a)  
+    mode_count = max(c.values())
+    mode = [key for key, count in c.items() if count == mode_count]
+    return mode
 
 app = connexion.FlaskApp(__name__,specification_dir='')
 CORS(app.app)

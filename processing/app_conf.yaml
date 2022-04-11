@@ -4,5 +4,5 @@ datastore:
 scheduler:
   period_sec: 5
 eventstore:
-  url: http://ec2-35-182-244-214.ca-central-1.compute.amazonaws.com:8090/requests
+  url: http://ec2-35-182-237-117.ca-central-1.compute.amazonaws.com:8090/requests
 

@@ -32,6 +32,6 @@ class Stats(Base):
         dict['mean_passengers'] = self.mean_passengers 
         dict['num_schedules'] = self.num_schedules 
         dict['most_frequent_arrival'] = self.most_frequent_arrival 
-        dict['last_updated'] = self.last_updated.strftime("%Y-%m-%dT%H:%M:%S") 
+        dict['last_updated'] = self.last_updated.strftime("%Y-%m-%dT%H:%M:%S.%fZ") 
  
         return dict

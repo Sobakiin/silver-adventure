@@ -99,7 +99,7 @@ components:
         order_time:
           type: string
           format: date-time
-          example: "2022-01-19T14:20:00.001Z"
+          example: "2022-01-19T14:20:00.001"
         starting_point:
           type: string
           example: '123 Granville St'
@@ -129,15 +129,15 @@ components:
         order_time:
           type: string
           format: date-time
-          example: '2022-01-19T14:20:00.001Z'
+          example: '2022-01-19T14:20:00.001'
         interval_start:
           type: string
           format: date-time
-          example: '2022-01-19T14:20:00.001Z'
+          example: '2022-01-19T14:20:00.001'
         interval_end:
           type: string
           format: date-time
-          example: '2022-01-19T14:20:00.001Z'
+          example: '2022-01-19T14:20:00.001'
         destination:
           type: string
           example: '123 Lonsdale ave'

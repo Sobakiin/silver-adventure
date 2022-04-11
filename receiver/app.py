@@ -39,7 +39,7 @@ def order_ride_immediately(body):
     msg = { "type": "ride_order",  
             "datetime" :    
             datetime.datetime.now().strftime( 
-                "%Y-%m-%dT%H:%M:%S"),  
+                "%Y-%m-%dT%H:%M:%S.%fZ"),  
             "payload": payload }  
     msg_str = json.dumps(msg) 
     producer.produce(msg_str.encode('utf-8'))
@@ -64,7 +64,7 @@ def schedule_ride(body):
     msg = { "type": "ride_schedule",  
             "datetime" :    
             datetime.datetime.now().strftime( 
-                "%Y-%m-%dT%H:%M:%S"),  
+                "%Y-%m-%dT%H:%M:%S.%fZ"),  
             "payload": payload } 
     msg_str = json.dumps(msg) 
     producer.produce(msg_str.encode('utf-8'))

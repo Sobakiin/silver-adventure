@@ -21,13 +21,20 @@ paths:
       operationId: app.get_order_ride
       description: Gets trips to a destination requested after a timestamp 
       parameters: 
-        - name: timestamp 
+        - name: start_timestamp 
           in: query 
           description: Limits the number of items on a page 
           schema: 
             type: string 
             format: date-time 
-            example: 2016-08-29T09:12:33 
+            example: '2016-08-29T09:12:33'
+        - name: end_timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: '2016-08-29T09:12:33' 
       responses: 
         '200': 
           description: Successfully returned a list of ride order events 
@@ -53,14 +60,21 @@ paths:
       summary: gets new scheduled ride requests 
       operationId: app.get_schedule_ride
       description: Gets scheduled ride requests made after a timestamp 
-      parameters: 
-        - name: timestamp 
-          in: query 
-          description: Limits the number of items on a page 
-          schema: 
-            type: string 
-            format: date-time 
-            example: 2016-08-29T09:12:33 
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: '2016-08-29T09:12:33'
+        - name: end_timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: '2016-08-29T09:12:33' 
       responses: 
         '200': 
           description: Successfully returned a list of scheduled rides 

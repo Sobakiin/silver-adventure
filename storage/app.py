@@ -46,8 +46,8 @@ def get_order_ride(start_timestamp, end_timestamp):
 
     session = DB_SESSION()
 
-    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")
-    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
     orders = session.query(RideOrder).filter(and_(RideOrder.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
     results_list = []
@@ -57,18 +57,18 @@ def get_order_ride(start_timestamp, end_timestamp):
 
     session.close()
 
-    logger.info("Query for Rides Ordered after %s returns %d results" % (timestamp, len(results_list)))
+    logger.info("Query for Rides Ordered between %s and %s returns %d results" % (start_timestamp, end_timestamp, len(results_list)))
 
     return results_list, 200
 
-def get_schedule_ride(timestamp):
+def get_schedule_ride(start_timestamp,end_timestamp):
     """Gets ride orders after the timestamp"""
 
     session = DB_SESSION()
 
-    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")
-    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S")
-    orders = session.query(RideOrder).filter(and_(RideOrder.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    orders = session.query(RideSchedule).filter(and_(RideSchedule.order_time >= start_timestamp_datetime,RideOrder.order_time < end_timestamp_datetime))
 
     results_list = []
 
@@ -77,15 +77,28 @@ def get_schedule_ride(timestamp):
 
     session.close()
 
-    logger.info("Query for scheduled rides made after %s returns %d results" % (timestamp, len(results_list)))
+    logger.info("Query for scheduled rides made between %s and %s returns %d results" % (start_timestamp, end_timestamp, len(results_list)))
 
     return results_list, 200
 
 def process_messages(): 
     """ Process event messages """ 
+    retry_count = 0
     hostname = "%s:%d" % (app_config["events"]["hostname"],   
                           app_config["events"]["port"]) 
-    client = KafkaClient(hosts=hostname) 
+    while retry_count < app_config["kafka_connect"]["retry_count"]:
+        try:
+            logger.info('trying to connect, attempt: %d' % (retry_count))
+            print(hostname)
+            client = KafkaClient(hosts=hostname)
+            break
+        except:
+            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+            retry_count += 1
+            sleep(app_config["kafka_connect"]["sleep_time"])
+        
+    logger.info('connected to kafka')
+
     topic = client.topics[str.encode(app_config["events"]["topic"])] 
      
     # Create a consume on a consumer group, that only reads new messages  
