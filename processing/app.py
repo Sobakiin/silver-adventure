@@ -45,66 +45,55 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 def populate_stats():
     logger.info(f'Start periodic processing')
-    current_stats = get_status()[0]
+    current_stats = get_status()
     current_time  = datetime.datetime.now()
     
     #Timestamps to check only new entries
     response_ride= requests.get(f'{app_config["eventstore"]["url"]}/ride-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":current_time.strftime("%Y-%m-%dT%H:%M:%S.%fZ")})
     response_schedule= requests.get(f'{app_config["eventstore"]["url"]}/schedule-order',params={'start_timestamp':current_stats["last_updated"], "end_timestamp":current_time.strftime("%Y-%m-%dT%H:%M:%S.%fZ")})
-    if(response_ride.status_code == 200 & response_schedule.status_code==200):
-        logger.info(f'Recieved code 200')
+    
+    if response_ride.status_code != 200:
+        logger.error("Reciever a status code of {}".format(response_ride.status_code))
     else:
-        logger.error(f'Recieved codes {response_ride.status_code} and {response_schedule.status_code}')
-    print(response_ride.json())
-    print(response_schedule.json())
-    if(len(response_ride.json())!=0 or len(response_schedule.json())!=0):  
-        #testing timestamps, to make sure it gets something when testing. 
-        # response_ride= requests.get(f'{app_config["eventstore"]["url"]}/ride-order',params={'timestamp':"2016-08-29T09:12:33"})
-        # response_schedule= requests.get(f'{app_config["eventstore"]["url"]}/schedule-order',params={'timestamp':"2016-08-29T09:12:33"})
+        logger.info("Recieved {} events with a status code of {}".format(len(response_ride.json()),response_ride.status_code))
         
-        if(len(response_ride.json())!=0):
-            destinations=[]
-            passengers=[]
-            for i in response_ride.json():
-                print(i)
-                logger.debug(f'Processed event trace id: {i["trace_id"]}')
-                destinations.append(i["destination"])
-                passengers.append(i["max_passenger"])
-            
-            num_orders=current_stats["num_orders"] + len(response_ride.json())
-            most_req_dest=statistics.mode(destinations)
-            mean_passengers= statistics.mean(passengers)
-        else:
-            num_orders=current_stats['num_orders']
-            most_req_dest="N/A"
-            mean_passengers="N/A"
-        if(1==0):
-            arrival=[]
-            for j in response_schedule.json():
-                logger.debug(f'Processed event trace id: {j["trace_id"]}')
-                arrival.append(j["interval_end"])        
-            
-            num_schedules=current_stats["num_schedules"]+len(response_schedule.json())
-            most_frequent_arrival=datetime.datetime.strptime(arrival[0],"%Y-%m-%dT%H:%M:%S.%f")
-            print(arrival)
-        else:
-            for j in response_schedule.json():
-                logger.debug(f'Processed event trace id: {j["trace_id"]}')
-                #arrival.append(j["interval_end"])
-
-            num_schedules=current_stats["num_schedules"]+len(response_schedule.json())
-            
-            most_frequent_arrival=datetime.datetime.now()
-        new_stats = Stats(num_orders,most_req_dest,mean_passengers,num_schedules,most_frequent_arrival,current_time)
-      
-        session = DB_SESSION()
-        session.add(new_stats)
-        session.commit()
-
-        logger.debug(f'Logged staistics of last five seconds as Stats object: {new_stats.to_dict()}')
-        session.close()
+    if response_schedule.status_code != 200:
+        logger.error("Reciever a status code of {}".format(response_schedule.status_code))
     else:
-        logger.debug('Not enough new data since last logged.')
+        logger.info("Recieved {} events with a status code of {}".format(len(response_schedule.json()),response_schedule.status_code))
+        
+   
+
+    num_orders=current_stats["num_orders"] + len(response_ride.json())
+    num_schedules=current_stats["num_schedules"]+len(response_schedule.json())
+    
+    
+    destinations=[]
+    passengers=[]
+    for i in response_ride.json():
+        print(i)
+        logger.debug(f'Processed event trace id: {i["trace_id"]}')
+        destinations.append(i["destination"])
+        passengers.append(i["max_passenger"])
+        
+    most_req_dest=statistics.mode(destinations)
+    mean_passengers= statistics.mean(passengers)
+    
+    arrival=[]
+    for j in response_schedule.json():
+        arrival.append(j["interval_end"])        
+
+    most_frequent_arrival=datetime.datetime.strptime(mode(arrival),"%Y-%m-%dT%H:%M:%SZ")
+
+    new_stats = Stats(num_orders,most_req_dest,mean_passengers,num_schedules,most_frequent_arrival,current_time)
+
+    session = DB_SESSION()
+    session.add(new_stats)
+    session.commit()
+
+    logger.debug(f'Logged staistics of last five seconds as Stats object: {new_stats.to_dict()}')
+    session.close()
+    
     
 
 def init_scheduler():
@@ -117,27 +106,29 @@ def most_recent_stats():
 
     results = session.query(Stats).order_by(Stats.last_updated.desc()).first()
     session.close()
+    if not results:
+           
+        stats = {
+            "num_orders": 0,
+            "most_requested_destination": 0,
+            "mean_passengers": 0,
+            "num_schedules": 0,
+            "most_frequent_arrival": "2016-08-29T09:12:33Z",
+            "last_updated": "2016-08-29T09:12:33Z"
+        }
+    else:
+        stats = results.to_dict()
     
-    return results
+    return stats
 
 def get_status():
     logger.info(f'Beginning request')
     
-    latest_stats=most_recent_stats()
-    if latest_stats == None:
-        logger.error('No stats to pull, sending defaults')
-        latest_stats= Stats(0,'123 Street Ave','2',0,datetime.datetime.strptime("2000-09-10T12:00:00.000Z","%Y-%m-%dT%H:%M:%S.%fZ"),datetime.datetime.strptime("2000-09-10T12:00:00.000Z","%Y-%m-%dT%H:%M:%S.%fZ"))
+    content=most_recent_stats()
     
-    content = latest_stats.to_dict()
     logger.debug(f'Current statistics are: {content}')
     logger.info('Request completed')
     return content, 200
-
-def get_all_modes(a):
-    c = Counter(a)  
-    mode_count = max(c.values())
-    mode = [key for key, count in c.items() if count == mode_count]
-    return mode
 
 app = connexion.FlaskApp(__name__,specification_dir='')
 CORS(app.app)
