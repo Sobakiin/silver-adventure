@@ -46,7 +46,7 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 logger.info("Connecting to DB. Hostname:{}, Port:{}".format(hostname, port))
 
 
-def get_ride_order(start_timestamp, end_timestamp):
+def get_order_ride(start_timestamp, end_timestamp):
     """ Gets new member check ins after the timestamp """
 
     session = DB_SESSION()
