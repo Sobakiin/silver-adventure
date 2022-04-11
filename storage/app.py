@@ -81,7 +81,7 @@ def get_schedule_ride(start_timestamp, end_timestamp):
 
     results_list = []
 
-    for reading in readings:
+    for reading in orders:
         results_list.append(reading.to_dict())
 
     session.close()
