@@ -20,14 +20,11 @@ logger = logging.getLogger('basicLogger')
 
 def get_ride_order(index): 
     """ Get ordered ride in History """ 
-    print("1")
     hostname = "%s:%d" % (app_config["events"]["hostname"],  
                           app_config["events"]["port"]) 
     client = KafkaClient(hosts=hostname) 
-    print("2")
 
     topic = client.topics[str.encode(app_config["events"]["topic"])] 
-    print("3")
  
     # Here we reset the offset on start so that we retrieve 
     # messages at the beginning of the message queue.  
