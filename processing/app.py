@@ -83,7 +83,7 @@ def populate_stats():
     for j in response_schedule.json():
         arrival.append(j["interval_end"])        
 
-    most_frequent_arrival=datetime.datetime.strptime(mode(arrival),"%Y-%m-%dT%H:%M:%SZ")
+    most_frequent_arrival=datetime.datetime.strptime(mode(arrival),"%Y-%m-%dT%H:%M:%S.%fZ")
 
     new_stats = Stats(num_orders,most_req_dest,mean_passengers,num_schedules,most_frequent_arrival,current_time)
 
@@ -113,8 +113,8 @@ def most_recent_stats():
             "most_requested_destination": 0,
             "mean_passengers": 0,
             "num_schedules": 0,
-            "most_frequent_arrival": "2016-08-29T09:12:33Z",
-            "last_updated": "2016-08-29T09:12:33Z"
+            "most_frequent_arrival": "2016-08-29T09:12:33.003Z",
+            "last_updated": "2016-08-29T09:12:33.003Z"
         }
     else:
         stats = results.to_dict()
