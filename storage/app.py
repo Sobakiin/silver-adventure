@@ -45,6 +45,23 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 logger.info("Connecting to DB. Hostname:{}, Port:{}".format(hostname, port))
 
+retry_count = 0
+""" Process event messages """
+hostname1 = "%s:%d" % (app_config["events"]["hostname"],   
+                      app_config["events"]["port"]) 
+
+while retry_count < app_config["kafka_connect"]["retry_count"]:
+    try:
+        logger.info('trying to connect, attempt: %d' % (retry_count))
+        print(hostname1)
+        client = KafkaClient(hosts=hostname1)
+    except:
+        logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+        retry_count += 1
+        sleep(app_config["kafka_connect"]["sleep_time"])
+    else:
+        break
+logger.info('connected to kafka')
 
 def get_order_ride(start_timestamp, end_timestamp):
     """ Gets new member check ins after the timestamp """
@@ -130,23 +147,7 @@ def report_ride_schedule(body):
     logger.debug(received_event)
     
 def process_messages():
-    retry_count = 0
-    """ Process event messages """
-    hostname1 = "%s:%d" % (app_config["events"]["hostname"],   
-                          app_config["events"]["port"]) 
-
-    while retry_count < app_config["kafka_connect"]["retry_count"]:
-        try:
-            logger.info('trying to connect, attempt: %d' % (retry_count))
-            print(hostname1)
-            client = KafkaClient(hosts=hostname1)
-        except:
-            logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
-            retry_count += 1
-            sleep(app_config["kafka_connect"]["sleep_time"])
-        else:
-            break
-    logger.info('connected to kafka')
+   
 
     topic = client.topics[str.encode(app_config["events"]["topic"])] 
 
