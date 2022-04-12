@@ -4,6 +4,9 @@ eventstore1:
 eventstore2:
   url: http://localhost:8090/requests/schedule-order
 events:
-  hostname: ec2-3-96-179-33.ca-central-1.compute.amazonaws.com
+  hostname: serviceapp-will.westus3.cloudapp.azure.com
   port: 9092
   topic: events
+kafka_connect:
+  retry_count: 10
+  sleep_time: 5

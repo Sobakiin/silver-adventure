@@ -24,6 +24,25 @@ with open('log_conf.yml', 'r') as f:
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+retry_count = 0
+""" Process event messages """
+hostname1 = "%s:%d" % (app_config["events"]["hostname"],
+                          app_config["events"]["port"])
+
+while retry_count < app_config["kafka_connect"]["retry_count"]:
+    try:
+        logger.info('trying to connect, attempt: %d' % (retry_count))
+        print(hostname1)
+        client = KafkaClient(hosts=hostname1)
+    except:
+        logger.info('attempt %d failed, retry in 5 seoncds' % (retry_count))
+        retry_count += 1
+        sleep(app_config["kafka_connect"]["sleep_time"])
+    else:
+        break
+logger.info('connected to kafka')
+topic = client.topics[str.encode(app_config["events"]["topic"])]
+producer = topic.get_sync_producer()
 
 def order_ride_immediately(body):
     trace_id=uuid.uuid4()                            
@@ -31,9 +50,8 @@ def order_ride_immediately(body):
     headers = { "content-type":"application/json"}
     # response = requests.post(app_config["eventstore1"]["url"],
     #                             json=body, headers=headers)
-    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
-    producer = topic.get_sync_producer() 
+    
+
     payload=body
     payload['trace_id']=f"{trace_id}"
     msg = { "type": "ride_order",  
@@ -56,9 +74,6 @@ def schedule_ride(body):
     headers = { "content-type":"application/json"}
     # response = requests.post(app_config["eventstore2"]["url"],
     #                             json=body, headers=headers)
-    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
-    producer = topic.get_sync_producer() 
     payload=body
     payload['trace_id']=f"{trace_id}"
     msg = { "type": "ride_schedule",  

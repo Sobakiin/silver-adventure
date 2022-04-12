@@ -1,12 +1,12 @@
 version: 1
 events: 
-  hostname: ec2-3-96-179-33.ca-central-1.compute.amazonaws.com
+  hostname: serviceapp-will.westus3.cloudapp.azure.com
   port: 9092 
   topic: events
 datastore:
   user: user
   password: password
-  hostname: ec2-3-96-179-33.ca-central-1.compute.amazonaws.com
+  hostname: serviceapp-will.westus3.cloudapp.azure.com
   port: 3306
   db: events
 kafka_connect:

@@ -79,7 +79,7 @@ def populate_stats():
     most_req_dest=statistics.mode(destinations)
     mean_passengers= statistics.mean(passengers)
     
-    arrival=[]
+    arrival=[current_stats["most_frequent_arrival"]]
     for j in response_schedule.json():
         arrival.append(j["interval_end"])        
 
